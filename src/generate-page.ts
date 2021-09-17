@@ -80,8 +80,8 @@ const data = {
                     type: Demopage.supportedControls.Range,
                     title: "Pegs count",
                     id: "pegs-range-id",
-                    min: 200,
-                    max: 1200,
+                    min: 50,
+                    max: 1000,
                     value: 350,
                     step: 1
                 },
