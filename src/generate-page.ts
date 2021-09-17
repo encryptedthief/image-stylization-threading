@@ -141,10 +141,10 @@ const data = {
                     type: Demopage.supportedControls.Range,
                     title: "Segments count",
                     id: "lines-range-id",
-                    min: 500,
-                    max: 15000,
+                    min: 10,
+                    max: 10000,
                     value: 2500,
-                    step: 100
+                    step: 10
                 },
                 {
                     type: Demopage.supportedControls.Range,
@@ -159,10 +159,10 @@ const data = {
                     type: Demopage.supportedControls.Range,
                     title: "Thickness",
                     id: "thickness-range-id",
-                    min: 0.1,
+                    min: 0.025,
                     max: 1,
                     value: 0.5,
-                    step: 0.1
+                    step: 0.025
                 },
             ]
         },
