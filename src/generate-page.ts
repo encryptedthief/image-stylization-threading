@@ -83,7 +83,7 @@ const data = {
                     min: 200,
                     max: 1200,
                     value: 350,
-                    step: 5
+                    step: 1
                 },
             ]
         },
@@ -144,7 +144,7 @@ const data = {
                     min: 500,
                     max: 15000,
                     value: 2500,
-                    step: 500
+                    step: 100
                 },
                 {
                     type: Demopage.supportedControls.Range,
@@ -159,10 +159,10 @@ const data = {
                     type: Demopage.supportedControls.Range,
                     title: "Thickness",
                     id: "thickness-range-id",
-                    min: 0.25,
+                    min: 0.1,
                     max: 1,
                     value: 0.5,
-                    step: 0.25
+                    step: 0.1
                 },
             ]
         },
