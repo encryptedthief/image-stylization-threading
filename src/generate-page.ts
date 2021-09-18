@@ -151,9 +151,9 @@ const data = {
                     title: "Opacity",
                     id: "opacity-range-id",
                     min: 1,
-                    max: 5,
+                    max: 10,
                     value: 2,
-                    step: 1
+                    step: 0.5
                 },
                 {
                     type: Demopage.supportedControls.Range,
